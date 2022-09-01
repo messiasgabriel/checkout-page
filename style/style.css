@@ -1,0 +1,210 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+:root{
+    --cor1:#828282;
+    --cor2:#4E5150;
+    --cor3:#333333;
+    --cor4:#4F4F4F;
+    --cor5:#F2994A;
+    --cor6:#dbdbdb;
+    /* #F2F2F2 */
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+i{
+    color: var(--cor1);
+    margin: 1% 4% 1% 1%;
+}
+input, textarea, select {
+    outline: 0;
+    border: none;
+    font-size: 16px;
+}
+input {
+    width: 465px;
+}
+h2 {
+   font-size: 1.125rem; 
+   color: var(--cor3);
+   margin-bottom: 5%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* HEADER */
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5% 2% 1% 2% ;
+}
+.checkout h1{
+    font-size: 2.25rem;
+    line-height: 44px;
+    padding-bottom: 4%;
+}
+
+/* MAIN */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0% 2% 0% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+}
+
+/* FORM */
+.contact-info{
+    margin-bottom: 10%;
+}
+.ship-addr{
+    margin-bottom: 5%;
+}
+.input-container p{
+    font-size: 12px;
+    line-height: 14.63px;
+    color: var(--cor4);
+    margin: 2% auto;
+}
+.input-half{
+    display: flex;
+    justify-content: space-between;
+    width: 465px;
+}
+.input-half >.input-container {
+    margin-top: 3%;
+    width: 47%;
+}
+.input-half i{
+    margin: 5%
+}
+.input-data{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid var(--cor1);
+    border-radius: 12px;
+    padding: 1%;
+    max-width: 465px;
+    min-height: 56px;
+}
+#country{
+    color: var(--cor1);
+}
+#postal{
+    max-width: 70%;
+}
+.save-chk{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--cor4);
+    margin-bottom: 4%;
+}
+#save{
+    width: 25px;
+    height: 25px;
+    margin-right: 3%;
+}
+.continue{
+    align-self: flex-start;
+    width: 166px;
+    height: 54px;
+    background-color: var(--cor5);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 64%;
+}
+.continue p{
+    color: #FFFFFF;
+}
+
+/* REIGHT CARD */
+.right-content {
+    align-self: flex-end;
+    width: 385px;
+    height: 520px;
+    background-color: var(--cor6);
+    border-radius: 12px;
+}
+.image{
+    width: 155px;
+    height: 135px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-width: 385px;
+    width: 100%;
+    height: 100%;
+    padding: 7%;
+}
+.card-info{
+    display: flex;
+}
+.card-info p{
+    color: black;
+}
+.card-text{
+    margin-left: 4%;
+    font-size: 12px;
+    line-height: 14px;
+}
+.card-text p{
+    font-size: 1rem;
+}
+.text{
+    display: flex;
+    align-items: baseline;
+}
+.text p{
+    padding: 5% 5% 5% 0%;
+    text-decoration: line-through;
+}
+.text > .orange{
+    text-decoration: none;
+    color: var(--cor5);
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.purchase-value{
+    display: flex;
+    flex-direction: column;
+}
+.value{
+    margin-top: 5%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #BDBDBD;
+}
+.purchase-value p{
+    color: black;
+}
+/* FOOTER */
+footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 8%;
+    text-align: center;
+    margin-bottom: 2%;
+    color: var(--cor4);
+}
+footer a, p{
+    text-decoration: none;
+    font-weight: bold;
+    color: #BDBDBD;
+}

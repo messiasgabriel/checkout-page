@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="icons/css/font-awesome.min.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <header>
+        <div class="checkout">
+            <h1>Checkout</h1>
+        </div>
+    </header>
+    <main class="container">
+        <form class="left-content" method="get" autocomplete="off">
+            <div class="contact-info"  >
+                <h2>Contact Information</h2>
+                <div class="input-container">
+                    <p>E-mail</p>
+                    <div class="input-data">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input  type="email" name="email" id="email" placeholder="Enter your email..." >
+                    </div>
+                </div>
+                <div class="input-container">
+                    <p>Phone</p>
+                    <div class="input-data">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="tel" name="tel" id="tel" pattern="^\(\d{2}\)[0-9]{4,5}-[0-9]{4}$" required placeholder="Enter your phone...">
+                    </div>
+                </div>
+            </div>
+            <div class="ship-addr" method="get" autocomplete="off">
+                <h2>Shipping address</h2>
+                <div class="input-container">
+                    <p>Full name</p>
+                    <div class="input-data">
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                        <input type="text" name="name" id="name" placeholder="Enter your name...">
+                    </div>
+                </div>
+                <div class="input-container">
+                    <p>Address</p>
+                    <div class="input-data">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <input type="text" name="address" id="address" placeholder="Your address..">
+                    </div>
+                </div>
+                <div class="input-container">
+                    <p>City</p>
+                    <div class="input-data">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <input type="text" name="city" id="city" placeholder="Your city..">
+                    </div>
+                </div>
+                <div class="input-half">
+                    <div class="input-container">
+                        <p>Country</p>
+                        <div class="input-data" class="half" >
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                            <select name="country" id="country">
+                                <option value="">Your Country..</option>
+                                <optgroup>
+                                    <option value="EUA">United States</option>
+                                    <option value="BRasil">Brasil</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="Argentina">Argentina</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <p>Postal code</p>
+                        <div class="input-data" class="half" >
+                            <i class="fa fa-folder" aria-hidden="true"></i>
+                            <input type="text" name="postal" id="postal" placeholder="Your postal code.." minlength="8" maxlength="8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="save-chk">
+                <input type="checkbox" name="save" id="save"> 
+                <p>Save this information for next time</p>
+            </div>
+            <button class="continue">
+                <p>Continue</p>
+            </button>
+        </form>
+        <section class="right-content">
+            <div class="card-container">
+                <div class="card-info">
+                    <div class="image">
+                        <img src="img/hat.jpg" alt="Nike Hat">
+                    </div>
+                    <div class="card-text">
+                        <p>Nike snapback </p>
+                        <div class="text">
+                            <p class="orange">$54.99</p>
+                            <p>$94.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="image">
+                        <img src="img/air-force.jpg" alt="Nike Hat">
+                    </div>
+                    <div class="card-text">
+                        <p>Nike Air Force 1</p>
+                        <div class="text">
+                            <p class="orange">$74.99</p>
+                            <p>$124.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="purchase-value">
+                    <div class="value">
+                        <p>Shipping</p>
+                        <p>$19</p>
+                    </div>
+                    <div class="value">
+                        <p>Total</p>
+                        <p>$148.98</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>created by <a href="https://github.com/messiasgabriel"  >@messiasgabriel</a> - devChallenges.io</p>
+    </footer>
+</body>
+</html>
