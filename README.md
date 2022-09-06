@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/messiasgabriel/checkout-page/main/Screenshot.png)
+![screenshot](https://raw.githubusercontent.com/messiasgabriel/checkout-page/main/Screenshot-new.png)
 
 This is a Challenge from https://devchallenges.io/ 
 I'm learning web development. So I was able to test and improve my skills with this challenge ;)
