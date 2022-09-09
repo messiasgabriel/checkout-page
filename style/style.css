@@ -6,8 +6,7 @@
     --cor3:#333333;
     --cor4:#4F4F4F;
     --cor5:#F2994A;
-    --cor6:#dbdbdb;
-    /* #F2F2F2 */
+    --cor6:#F2F2F2;
 }
 *{
     font-family: 'Montserrat', sans-serif;
@@ -42,19 +41,19 @@ img{
 
 /* HEADER */
 header {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 5% 2% 1% 2% ;
+    padding: 2% 2% 1% 2% ;
 }
 .checkout h1{
     font-size: 2.25rem;
     line-height: 44px;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 /* MAIN */
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0% 2% 0% 2%;
     display: flex;
@@ -133,8 +132,8 @@ header {
 /* REIGHT CARD */
 .right-content {
     align-self: flex-end;
-    width: 385px;
-    height: 520px;
+    width: 450px;
+    height: 500px;
     background-color: var(--cor6);
     border-radius: 12px;
 }
@@ -179,6 +178,21 @@ header {
     color: var(--cor5);
     font-size: 16px;
     line-height: 19.5px;
+}
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0.5rem;
+    max-width: 120px;
+}
+.bot input{
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
 }
 .purchase-value{
     display: flex;

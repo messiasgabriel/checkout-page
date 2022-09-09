@@ -29,7 +29,7 @@
                     <p>Phone</p>
                     <div class="input-data">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <input type="tel" name="tel" id="tel" pattern="^\(\d{2}\)[0-9]{4,5}-[0-9]{4}$" required placeholder="Enter your phone...">
+                        <input type="tel" name="tel" id="tel" pattern="^\(\d{2}\)[0-9]{5}-[0-9]{4}$" required placeholder="Enter your phone...">
                     </div>
                 </div>
             </div>
@@ -102,7 +102,13 @@
                             <p class="orange">$54.99</p>
                             <p>$94.99</p>
                         </div>
+                        <div class="bot">
+                            <button id="min">-</button>
+                            <input type="number" id="number" value="1" disabled>
+                            <button id="max">+</button>
+                        </div>
                     </div>
+                    
                 </div>
                 <div class="card-info">
                     <div class="image">
@@ -113,6 +119,11 @@
                         <div class="text">
                             <p class="orange">$74.99</p>
                             <p>$124.99</p>
+                        </div>
+                        <div class="bot">
+                            <button id="min">-</button>
+                            <input type="number" id="number" value="1" disabled>
+                            <button id="max">+</button>
                         </div>
                     </div>
                 </div>
