@@ -194,6 +194,10 @@ header {
     text-align: center;
     margin: 0 auto;
 }
+.counter{
+    width: 70%;
+    text-align: center;
+}
 .purchase-value{
     display: flex;
     flex-direction: column;

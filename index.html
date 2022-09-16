@@ -30,7 +30,7 @@
                     <p>Phone</p>
                     <div class="input-data">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <input type="tel" name="tel" id="tel" pattern="^\(\d{2}\)[0-9]{5}-[0-9]{4}$" required placeholder="Enter your phone...">
+                        <input type="tel" name="tel" id="tel" pattern="^\(\d{2}\)[0-9]{5}-[0-9]{4}$" placeholder="Enter your phone...">
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                 <input type="checkbox" name="save" id="save"> 
                 <p>Save this information for next time</p>
             </div>
-            <button class="continue">
+            <button class="continue" id="continue" onclick="conti()">
                 <p>Continue</p>
             </button>
         </form>
@@ -104,9 +104,9 @@
                             <p>$94.99</p>
                         </div>
                         <div class="bot">
-                            <button id="min">-</button>
-                            <input type="number" id="number" value="1" disabled>
-                            <button id="max">+</button>
+                            <button class="min">-</button>
+                            <span class="counter" >1</span>
+                            <button class="max">+</button>
                         </div>
                     </div>
                     
@@ -122,9 +122,9 @@
                             <p>$124.99</p>
                         </div>
                         <div class="bot">
-                            <button id="min">-</button>
-                            <input type="number" id="number" value="1" disabled>
-                            <button id="max">+</button>
+                            <button class="min">-</button>
+                            <span class="counter" >1</span>
+                            <button class="max">+</button>
                         </div>
                     </div>
                 </div>
@@ -144,5 +144,6 @@
     <footer>
         <p>created by <a href="https://github.com/messiasgabriel"  >@messiasgabriel</a> - devChallenges.io</p>
     </footer>
+    <script src="script/counter.js"></script>
 </body>
 </html>
